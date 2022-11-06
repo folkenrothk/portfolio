@@ -6,19 +6,20 @@ html {
 
 body {
     background: #999999;
-    height: 100vh;
-    margin: 0;
-    overflow: hidden;
+    width: 20vw;
 }
 
 img {
-    height: 75px;
+    height: 35vh;
+    width: 18vw;
+    border-radius: 50%;
 }
 
 #links img {  
   padding: 10px;  
   border-radius: 50%;
-  height: 125px;
+  height: 75px;
+  width: 5vw;
 }  
 
 
