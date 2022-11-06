@@ -1,0 +1,29 @@
+html {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: auto auto;
+}
+
+
+body {
+    background: #999999;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+img {
+    height: 75px;
+}
+
+#links img {  
+  padding: 10px;  
+  border-radius: 50%;
+  height: 125px;
+}  
+
+
+/* Create media query */
+
+@media only screen and (max-width: 1024px) {
+
+}
