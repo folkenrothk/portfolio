@@ -1,26 +1,164 @@
 html {
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background: #0b4a7e;
+}
+
+
+#top-page {
+    background-image: url(./media/background.jpg);
+    background-size: cover;
+    opacity: 80%;
+}
+
+h1 {
+    font-size: 80px;
+    color: #000000;
+    text-align: right;
+    padding-right: 5vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+/* about section */
+#about {
+    margin: auto 10%;
+    background-color: #999999;
+    display: grid;
+    grid-template-columns: 20vw 50vw;
+    grid-gap: 5px;
+}
+
+#about img{
+    height: 15vw;
+    width: 15vw;
+    border-radius: 50%;
+    order: 1;
     margin: auto auto;
 }
 
-
-body {
-    background: #999999;
-    width: 20vw;
+#about-content {
+    order: 2;
+    grid-template-rows: auto auto auto;
 }
 
-img {
-    height: 35vh;
-    width: 18vw;
-    border-radius: 50%;
+#about-content h2 {
+    order: 1;
+}
+
+#about-content h3 {
+    order: 2;
+}
+
+#about-content p {
+    order: 3;
+}
+
+/* Resume Section*/
+
+#resume {
+    margin-top: 20vh;
+    padding-top: 0;
+    background-color: #ffffff;
+    margin: 4% 4%;
+}
+
+#resume h2 {
+    text-align: center;
+    padding-top: 5vh;
+}
+
+#resumeContent {
+    padding: 0 5vh 5vh 5vh;
+    display: grid;
+    grid-template-columns: 50vw 30vw;
+    grid-row: auto auto;
+    grid-gap: 30px;
+}
+
+
+.resumeSect #edu {
+    order: 1;
+}
+
+.resumeSect #skills {
+    order: 2;
+}
+
+.resumeSect #exp {
+    order: 3;
+}
+
+.resumeSect #certs {
+    order: 4;
+}
+
+.resumeSect h3 {
+    color: #0b4a7e;
+    background-color: #c7c7c7;
+}
+
+.resumeSect h4 {
+    font-size: medium;
+    padding-bottom: 0;
+    margin: 0;
+}
+
+.resumeSect h5 {
+    font-size: small;
+    margin: 0;
+    font-weight: normal;
+    padding-bottom: 1vh;
+}
+
+.resumeSect h6 {
+    font-size: small;
+    margin: 0;
+}
+
+.resumeSect p {
+    margin: 0;
+    padding-top: 1vh;
+}
+
+.midContent {
+    padding-top: 4vh;
+}
+
+/* Projects*/
+
+
+/* Footer*/
+
+footer {
+    background-color: #222222;
+    margin: 0 0;
+    display: grid;
+    grid-template-columns: 30vw 60vw;
+    grid-template-rows: auto;
+    grid-gap: 10px;
+}
+
+footer #links {
+    order: 1;
+    margin: auto auto;
+}
+
+footer #info {
+    padding: 5vh 5vh;
+    order: 2;
+    color: #ffffff;
 }
 
 #links img {  
   padding: 10px;  
   border-radius: 50%;
-  height: 75px;
+  height: 5vw;
   width: 5vw;
 }  
+
 
 
 /* Create media query */
