@@ -137,7 +137,6 @@ footer {
     margin: 0 0;
     display: grid;
     grid-template-columns: 30vw 60vw;
-    grid-template-rows: auto;
     grid-gap: 10px;
 }
 
@@ -164,5 +163,67 @@ footer #info {
 /* Create media query */
 
 @media only screen and (max-width: 1024px) {
+
+#top-page {
+    opacity: 90%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+#about {
+    grid-template-columns: auto;
+}
+
+#about img {
+    height: 30vw;
+    width: 30vw;
+    padding-top: 3vw;
+}
+
+#about-content {
+    padding: 2vw;
+}
+
+/* resume*/
+
+#resumeContent {
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto;
+}
+
+#edu {
+    order: 1;
+}
+
+#exp {
+    order: 2;
+}
+
+#skills {
+    order: 3;
+}
+
+
+#certs {
+   order: 4;
+}
+
+/* mini footer */
+footer {
+    grid-template-columns: auto;
+}
+
+footer #info {
+    font-size: small;
+    text-align: center;
+    padding: 0 0 5vh 0;
+}
+
+#links img {
+    height: 15vw;
+    width: 15vw;
+}
 
 }
