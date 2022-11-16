@@ -25,6 +25,7 @@ h1 {
 /* about section */
 #about {
     margin: auto 10%;
+    padding: 2vw;
     background-color: #999999;
     display: grid;
     grid-template-columns: 20vw 50vw;
@@ -129,6 +130,63 @@ h1 {
 
 /* Projects*/
 
+#project {
+    background-image: url(./media/codeBackground.png) ; 
+}
+
+
+#project h2 {
+    background-color: #777777;
+    padding: 2vw;
+    text-align: center;
+}
+
+#project a {
+    color: black;
+    text-decoration: none;
+}
+
+
+#projects {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 5px;
+}
+
+
+.project {
+    background-color: #999999;
+    margin: 1vw 1vw;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-gap: 0;
+}
+
+.project img {
+    grid-column: 1;
+    padding: 10px;
+    width: 10vw;
+    position: relative;
+    align-items: center;
+}
+
+.txt {
+    grid-column: 2;
+    display: grid;
+    grid-template-rows: 25% 75%;
+    grid-gap: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.project h4 {
+    text-decoration: underline;
+}
+
+.project p {
+
+}
+
 
 /* Footer*/
 
@@ -158,6 +216,47 @@ footer #info {
   width: 5vw;
 }  
 
+
+/* Project Pages*/
+
+.project-content {
+    margin: 5% 5%;
+    padding: 2vw;
+    background-color: #777777;
+
+}
+
+.project-content a {
+    background-color: #222222;
+    color: rgb(80, 128, 165);
+    padding: .5vw;
+    margin: 1vw;
+    border-radius: 25px;
+    text-align: right;
+}
+
+.project-header {
+    display: grid;
+    grid-template-columns: 70% auto;
+    grid-template-rows: auto auto auto;
+}
+.project-desc {
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.project-desc p {
+    grid-column: 1;
+}
+
+.project-img {
+    grid-column: 2;
+    grid-row: span 3;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
 
 
 /* Create media query */
