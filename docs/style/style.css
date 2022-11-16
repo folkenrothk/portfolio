@@ -128,10 +128,42 @@ h1 {
     padding-top: 4vh;
 }
 
+/*Full Resume/CV & Downloadable*/
+
+#download-ables {
+    padding-top: 0;
+    padding-bottom: 2vw;
+    background-color: #ffffff;
+    margin: 4% 4%;
+}
+
+#download-ables h2 {
+    text-align: center;
+    padding-top: 5vh;
+}
+
+.DLitem {
+    margin:  0 20% .5vw 20%;
+    display: grid;
+    grid-template-columns: 40% 15%;
+    grid-gap: 35%;
+    background-color: #999999;
+    outline: 2px solid black;
+}
+
+.DLitem a {
+    
+    text-align: center;
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
 /* Projects*/
 
 #project {
-    background-image: url(./media/codeBackground.png) ; 
+    background-image: url(./media/codeBackground.png);
+    margin: 2vw; 
 }
 
 
@@ -184,7 +216,7 @@ h1 {
 }
 
 .project p {
-
+    margin-right:2vw;
 }
 
 
@@ -258,6 +290,9 @@ footer #info {
     width: 50%;
 }
 
+#tghFlyer {
+    width: 60%;
+}
 
 /* Create media query */
 
