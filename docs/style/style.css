@@ -357,6 +357,18 @@ h1 {
    order: 4;
 }
 
+/* single file projects */
+
+#projects {
+    grid-template-columns: auto;
+    }
+
+.project img {
+    width: 70%;
+    display: block;
+    margin: auto auto;
+}
+
 /* mini footer */
 footer {
     grid-template-columns: auto;
