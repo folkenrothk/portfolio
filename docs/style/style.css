@@ -142,8 +142,12 @@ h1 {
     padding-top: 5vh;
 }
 
+#download-ables a {
+    text-decoration: none;
+}
+
 .DLitem {
-    margin:  0 20% .5vw 20%;
+    margin:  0 25% .5vw 25%;
     display: grid;
     grid-template-columns: 40% 15%;
     grid-gap: 35%;
@@ -151,14 +155,23 @@ h1 {
     outline: 2px solid black;
 }
 
-.DLitem a {
-    
+.DLitem h5 {
     text-align: center;
     display: block;
     margin-top: auto;
     margin-bottom: auto;
+    color:#0b4a7e;
+    text-decoration: underline;
+
 }
 
+.DLitem p {
+    text-align: center;
+    display: block;
+    color:#000000;
+    text-decoration: none;
+
+}
 /* Projects*/
 
 #project {
